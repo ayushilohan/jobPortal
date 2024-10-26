@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../style/Home.css';
+import AllJobs from './AllJobs';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -17,7 +18,7 @@ const Home = () => {
       </div>
 
       <div className="list-container">
-        <li></li>
+        <AllJobs />
       </div>
     </>
   );

@@ -15,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home jobs={jobs} />} />
         <Route path="/add-job" element={<AddJob addJob={addJob} />} />
+        <Route path="/add-job/job/:id" element={<AddJob />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

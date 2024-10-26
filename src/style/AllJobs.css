@@ -1,0 +1,13 @@
+.all-jobs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+  }
+  
+  .job-item {
+    width: 240px;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+  }
